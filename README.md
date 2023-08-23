@@ -14,11 +14,10 @@ Give this repo star. to vote up. then if the star is above 50. i will start to m
 
 Here the concept about what i want to make.
 
-![Aa](./img/GPT-Web-Guide.png)
-
+![GPT Web Guide](./img/GPT-Web-Guide.png)
 
 Tell me what you think
 
-Contact:
+Fill on the issue tab or Contact me:
 
 Discord Username : albirrkarim
