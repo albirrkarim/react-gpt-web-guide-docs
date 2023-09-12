@@ -6,7 +6,7 @@
 
 See the [demo](https://react-gpt-web-guide.vercel.app)
 
-This is the Documentation for [example implementation](https://github.com/albirrkarim/demo-website-gpt-web-guide)
+This is the Documentation for [private repo demo website](https://github.com/albirrkarim/demo-website-gpt-web-guide) and the actual package (soon)
 
 **Table Of Contents**
 
@@ -24,7 +24,7 @@ This is the Documentation for [example implementation](https://github.com/albirr
 
 # A. Introduction
 
-Recently, i work for AI accessibility tools the idea is its like conversational ai that can guide the user with disability maybe motoric or have visual problem and I also have exhibition platform that require NPC that can act as guide to my user.
+Recently, i work for AI accessibility tools the idea is its like conversational ai that can guide the user with disability maybe motoric or have visual problem and I also have exhibition platform (mozilla hubs based) that require NPC that can act as guide to my user.
 
 Both using react js for the implementation (UI) and for handing the complex logic, unstructured data we need strong understanding capabilities which open ai chat completion api have.
 
@@ -143,6 +143,18 @@ A: Try yourself to make this package. you will be grateful I am selling it cheap
 Q: Why it's not opensource package?
 
 A: Well, i need money to funding the research, you know that making package is cost a lot of time and ofcourse money.
+
+<br/>
+
+Q: is Chat GPT api sometime give wrong output?
+
+A: Yes, the ai not always 100% accurate, thats why i make prompt testing (which call real API not mocking) and unit test using [jest library](https://jestjs.io).
+
+<br/>
+
+Q: Voice Recognition is good enough?
+
+A: For now i use [react speech recognition](https://github.com/JamesBrill/react-speech-recognition) package. the accuracy and the supported device is also based on that package.
 
 <br/>
 
