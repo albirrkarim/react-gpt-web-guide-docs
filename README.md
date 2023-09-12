@@ -11,16 +11,16 @@ This is the Documentation for [example implementation](https://github.com/albirr
 **Table Of Contents**
 
 - [A. Introduction](#a-introduction)
-- [B. Can be used as](#b-todo)
-- [C. How It Works](#b-todo)
-- [D. Todo](#b-todo)
-- [E. API](#c-api)
-- [F. Example Code](#d-example-code)
-- [G. Changelog](#e-changelog)
-- [H. Disclaimer](#f-disclaimer)
-- [I. Warranty](#g-warranty)
-- [J. Feedback](#g-warranty)
-- [K. FAQ](#h-faq)
+- [B. Can be used as](#b-can-be-used-as)
+- [C. How It Works](#c-how-it-works)
+- [D. Todo](#d-todo)
+- [E. API](#e-api)
+- [F. Example Code](#f-example-code)
+- [G. Changelog](#g-changelog)
+- [H. Disclaimer](#h-disclaimer)
+- [I. Warranty](#i-warranty)
+- [J. Feedback](#j-warranty)
+- [K. FAQ](#k-faq)
 
 # A. Introduction
 
@@ -81,18 +81,32 @@ You can set programatic action. so the package can integrate into your system.
 
 # D. Todo
 
+- [ ] Give source code comments (10%)
+- [ ] API docs (10%)
+- [ ] Automate the testing (Prompt Test, Unit Test)(20%)
+
+<br/>
 <br/>
 
 # E. API
+
+See [API.md](API.md)
 
 <br/>
 
 # F. Example Code
 
+Contain simple example code, the full example code and implementation example using source code from demo website. the source code of demo website is included when you buy this package.
+
+See [EXAMPLE_CODE.md](EXAMPLE_CODE.md)
+
 <br/>
 
-
 # G. Changelog
+
+Changelog contains information about new feature, fix bug, and what you should do when the version is update.
+
+See [CHANGELOG.md](CHANGELOG.md)
 
 <br/>
 
@@ -100,7 +114,6 @@ You can set programatic action. so the package can integrate into your system.
 
 There's no refund
 
-<br>
 <br>
 
 # I. Warranty
@@ -116,6 +129,8 @@ Tell me what you think
 Fill on the issue tab or Contact me:
 
 Discord Username : albirrkarim
+
+<br/>
 
 # K. FAQ
 
