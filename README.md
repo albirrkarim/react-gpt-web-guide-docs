@@ -2,7 +2,7 @@
 
 ![GPT Web Guide](./img/React-GPT-Web-Guide.png)
 
-**React GPT Web Guide** - Imagine you have an AI that can act as guide in your website. Can be use as AI Web Accessibility, Web Metaverse NPC, Conversational AI, etc.
+**React GPT Web Guide** - Imagine you have an AI that can act as a guide in your website. Can be used as AI Web Accessibility, Web Metaverse NPC, Conversational AI, etc.
 
 See the [demo](https://react-gpt-web-guide.vercel.app)
 
