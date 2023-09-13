@@ -2,11 +2,11 @@
 
 ![GPT Web Guide](./img/React-GPT-Web-Guide.png)
 
-**React GPT Web Guide** Imagine you have an AI that can act as guide in your website.
+**React GPT Web Guide** Imagine you have an AI that can act as guide in your website. Can be use as AI Web Accessibility, Web Metaverse NPC, Conversational AI.
 
 See the [demo](https://react-gpt-web-guide.vercel.app)
 
-This is the Documentation for [private repo demo website](https://github.com/albirrkarim/demo-website-gpt-web-guide) and the actual package (soon)
+This is the Documentation for private repo [demo website](https://github.com/albirrkarim/demo-website-gpt-web-guide) and [npm package](https://github.com/albirrkarim/react-gpt-web-guide)
 
 **Table Of Contents**
 
@@ -21,6 +21,8 @@ This is the Documentation for [private repo demo website](https://github.com/alb
 - [I. Warranty](#i-warranty)
 - [J. Feedback](#j-warranty)
 - [K. FAQ](#k-faq)
+
+# Docs for v1.4.0
 
 # A. Introduction
 
