@@ -2,7 +2,7 @@
 
 ![GPT Web Guide](./img/React-GPT-Web-Guide.png)
 
-**React GPT Web Guide** - Imagine you have an AI that can act as a guide in your website. Can be used as AI Web Accessibility, Web Metaverse NPC, Conversational AI, etc.
+**React GPT Web Guide** - Imagine you have an AI that can act as a guide on your website. It can be used as AI Web Accessibility, Web Metaverse NPC, Conversational AI, etc.
 
 See the [demo](https://react-gpt-web-guide.vercel.app)
 
@@ -26,17 +26,17 @@ This is the Documentation for private repo [demo website](https://github.com/alb
 
 # A. Introduction
 
-Recently, i work for AI accessibility tools the idea is its like conversational ai that can guide the user with disability maybe motoric or have visual problem and I also have exhibition platform (mozilla hubs based) that require NPC that can act as guide to my user.
+Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem and I also have an exhibition platform (Mozilla hubs based) that requires NPC that can act as a guide to my user.
 
-Both using react js for the implementation (UI) and for handing the complex logic, unstructured data we need strong understanding capabilities which open ai chat completion api have.
+Both using react JS for the implementation (UI) and for handling the complex logic, and unstructured data we need strong understanding capabilities which open AI chat completion API has.
 
-Then i make this package in about 1 month.
+Then I make this package in about 1 month.
 
 What position is this package in your production apps?
 
-Imagine human body, they have mouth (text-to-speech), have ears (speech-to-text), have brain (chat gpt api), have hand (programmatically calling function to do some action), have eyes (function that search the the web section, button, form, etc), but don't have foot because what the foot for haha.
+Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API),  hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc), but don't have foot because what the foot for haha.
 
-So when you buy this package you get new ai employee. (like human employee)
+So when you buy this package you get a new AI employee. (like human employees)
 
 <br/>
 
