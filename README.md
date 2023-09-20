@@ -34,7 +34,7 @@ Then I make this package in about 1 month.
 
 What position is this package in your production apps?
 
-Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API),  hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc), but don't have foot because what the foot for haha.
+Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc), but don't have foot because what the foot for haha.
 
 So when you buy this package you get a new AI employee. (like human employees)
 
@@ -147,28 +147,60 @@ Discord Username : albirrkarim
 
 # K. FAQ
 
-Q: Why it's expensive?
+<details>
+  <summary>Why it's expensive?</summary>
+  
+<br/>
 
-A: Try yourself to make this package. you will be grateful I am selling it cheap.
+Try yourself to make this package. you will be grateful I am selling it cheap.
+
+</details>
 
 <br/>
 
-Q: Why it's not opensource package?
-
-A: Well, i need money to funding the research, you know that making package is cost a lot of time and ofcourse money.
-
-<br/>
-
-Q: is Chat GPT api sometime give wrong output?
-
-A: Yes, the ai not always 100% accurate, thats why i make prompt testing (which call real API not mocking) and unit test using [jest library](https://jestjs.io).
+<details>
+  <summary>Why it's not opensource package?</summary>
 
 <br/>
 
-Q: Voice Recognition is good enough?
+Well, i need money to funding the research, you know that making package is cost a lot of time and ofcourse money.
 
-A: For now i use [react speech recognition](https://github.com/JamesBrill/react-speech-recognition) package. the accuracy and the supported device is also based on that package.
+</details>
 
+<br/>
+
+<details>
+  <summary>Is Chat GPT api sometime give wrong output?</summary>
+
+<br/>
+
+Yes, the ai not always 100% accurate, thats why i make prompt testing (which call real API not mocking) and unit test using [jest library](https://jestjs.io).
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Voice Recognition is good enough?</summary>
+
+<br/>
+
+For now i use [react speech recognition](https://github.com/JamesBrill/react-speech-recognition) package. the accuracy and the supported device is also based on that package.
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Is the open ai API cost expensive?</summary>
+
+<br/>
+
+I try to do efficiency for each prompt so the cost is minimum and keep accurate.
+
+</details>
+
+<br/>
 <br/>
 
 # Support me
