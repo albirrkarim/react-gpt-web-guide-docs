@@ -1,8 +1,14 @@
 # CHANGELOG
 
+# 1.4.2
+- Fix bug
+
+# 1.4.1
+- Fix bug
+
 # 1.4
 - Fix bug
-- Implementation on real project
+- Implementation on real production project
 
 # 1.3
 - Fix bug

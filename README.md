@@ -22,7 +22,7 @@ This is the Documentation for private repo [demo website](https://github.com/alb
 - [J. Feedback](#j-warranty)
 - [K. FAQ](#k-faq)
 
-# Docs for v1.4.0
+# Docs for v1.4.2
 
 # A. Introduction
 
