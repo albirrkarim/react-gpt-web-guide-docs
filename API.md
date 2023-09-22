@@ -35,13 +35,13 @@ import {
 
 ## Table of content
 
-A. Main
+- [A. Main](API.md#a-main)
 
-B. Utils
+- [B. Utils](API.md#b-utils)
 
-C. Sharing state & constant
+- [C. Sharing state & constant](API.md#c-sharing-state--constant)
 
-D. Compatibility tools
+- [D. Compatibility tools](API.md#d-compatibility-tools)
 
 ## A. Main
 
@@ -85,6 +85,11 @@ const { stateRecog, stateGuide, action, prepare, askGPT } = useGPTWebGuide({
 
 Initial knowledge define what your website about.
 
+<details>
+  <summary>Show initial knowledge example</summary>
+
+<br/>
+
 ```js
 const DEMO_KNOWLEDGE = [
   {
@@ -99,9 +104,16 @@ const DEMO_KNOWLEDGE = [
 ];
 ```
 
+</details>
+
 #### Initial Action data
 
 Initial action data is define programatic action.
+
+<details>
+  <summary>Show initial action example</summary>
+
+<br/>
 
 ```js
 const goodsDataJSON = [
@@ -184,6 +196,8 @@ const INITIAL_ACTION_DATA = [
 ];
 ```
 
+</details>
+
 <br/>
 
 ## B. Utils
@@ -194,21 +208,9 @@ Built in speak function
 
 ### setGPTWebGuideStatus()
 
-Function to set ai status.
+Function to set ai status. see [AI_STATUS_OPT](API.md#ai_status_opt)
 
 ```js
-// GTP Web Guide Status (in the package)
-const AI_STATUS_OPT = {
-  OFF: "off",
-  IDLE: "idle",
-  LISTENING: "listening",
-  LISTENING_USER_COMMAND: "listening_user_command",
-  SPEAKING: "speaking",
-  THINKING: "thinking",
-  TRANSLATE: "translate",
-  SHUTDOWN: "shutdown",
-};
-
 // Import the constant from package so the value can be constant (avoid typo)
 import { AI_STATUS_OPT } from "gpt-web-guide";
 
@@ -236,7 +238,7 @@ let defaultLanguge = "en-US";
 // id-ID is language code for indonesia
 const translated_text = await translateTo("hello", "id-ID", defaultLanguge);
 
-console.log(translated_text) // halo
+console.log(translated_text); // halo
 ```
 
 ### playAudio()
@@ -247,19 +249,58 @@ coming soon
 
 ## C. Sharing state & constant
 
+Sharing package state and constant.
+
 ### isScreenReaderActive()
 
 ### isVoiceCommandActive()
 
 ### CONFIG_OPT
 
+```js
+// config option
+const CONFIG_OPT = {
+  siteLang: "siteLang",
+  micOnSoundEffect: "micOnSoundEffect",
+  micOffSoundEffect: "micOffSoundEffect",
+  keyBoardSoundEffect: "keyBoardSoundEffect",
+};
+```
+
 ### AI_STATUS_OPT
 
+```js
+// GTP Web Guide Status
+const AI_STATUS_OPT = {
+  OFF: "off",
+  IDLE: "idle",
+  LISTENING: "listening",
+  LISTENING_USER_COMMAND: "listening_user_command",
+  SPEAKING: "speaking",
+  THINKING: "thinking",
+  TRANSLATE: "translate",
+  SHUTDOWN: "shutdown",
+};
+```
+
 ### ACTION_TYPE
+
+```js
+// For action data
+const ACTION_TYPE = {
+  SUBMIT_FORM: "submit form",
+  FILL_FORM: "fill form",
+  CLICK_BUTTON: "click button",
+  INPUT_TEXT: "input text",
+  SEARCH: "search",
+};
+```
 
 <br/>
 
 ## D. Compatibility tools
+
+Contain Compatibility tools
 
 ### isChrome()
 
