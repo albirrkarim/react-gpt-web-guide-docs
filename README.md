@@ -2,9 +2,32 @@
 
 **React GPT Web Guide** - Interactable AI 3D Avatar that have controll over your frontend website
 
-See the [demo](https://react-gpt-web-guide.vercel.app)
+[Try the demo React GPT Web Guide](https://react-gpt-web-guide.vercel.app)
 
-This is the Documentation for private repo [demo website](https://github.com/albirrkarim/demo-website-gpt-web-guide) and [npm package](https://github.com/albirrkarim/react-gpt-web-guide)
+
+Ask something? discord: albirrkarim
+
+<a href="https://discordapp.com/channels/@me/884043164908929034" title="Message me with discord">
+    <img src="./img/discord.png" width="200em">
+</a>
+
+<br/>
+
+## Features:
+
+- All the feature that [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) have. This is the extended product of that package.
+- Tested function and prompts using [jest](https://jestjs.io) and code linting using [eslint](https://eslint.org)
+- Efficient [Chat GPT API cost](https://openai.com/pricing)
+- [Typescript](https://www.typescriptlang.org), [Js Doc](https://jsdoc.app), [VS Code Intellisense](https://code.visualstudio.com/docs/editor/intellisense)
+- Flexible package API.
+
+<br/>
+<br/>
+
+# Docs React GPT Web Guide v1.4.2
+
+This is the Documentation for private repo [demo website](https://github.com/Web-XR-AI-lab/demo-website-gpt-web-guide)
+
 
 **Table Of Contents**
 
@@ -18,8 +41,6 @@ This is the Documentation for private repo [demo website](https://github.com/alb
 
 <br/>
 
-# Docs for v1.4.2
-
 ## A. Introduction
 
 ### What i want?
@@ -32,15 +53,11 @@ What position is this package in your production apps?
 
 Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc).
 
-<br/>
-
 ### Use Cases
 
 - Conversational AI
 - Web Metaverse NPC
 - AI Web Accessibility
-
-<br/>
 
 ### How It Works
 
@@ -181,8 +198,6 @@ You can see the docs in this repo, and this package is written with typescript, 
 You don't have to read all the docs in here, because this package now support [VS Code IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) what is that? simply its when you hover your mouse into some variable or function [VS Code](https://code.visualstudio.com/) will show some popup (simple tutorial) what is the function about, examples, params, etc...
 
 Just use the source code from demo website, you can literally just understand the package.
-
-https://github.com/albirrkarim/react-speech-highlight-demo/assets/29292018/05d325f9-469c-47e9-97d3-10053628e18c
 
 </details>
 
