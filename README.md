@@ -4,7 +4,6 @@
 
 [Try the demo React GPT Web Guide](https://react-gpt-web-guide.vercel.app)
 
-
 Ask something? discord: albirrkarim
 
 <a href="https://discordapp.com/channels/@me/884043164908929034" title="Message me with discord">
@@ -18,8 +17,9 @@ Ask something? discord: albirrkarim
 - All the feature that [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) have. This is the extended product of that package.
 - Tested function and prompts using [jest](https://jestjs.io) and code linting using [eslint](https://eslint.org)
 - Efficient [Chat GPT API cost](https://openai.com/pricing)
-- [Typescript](https://www.typescriptlang.org), [Js Doc](https://jsdoc.app), [VS Code Intellisense](https://code.visualstudio.com/docs/editor/intellisense)
+- Support [Typescript](https://www.typescriptlang.org), [Js Doc](https://jsdoc.app), [VS Code Intellisense](https://code.visualstudio.com/docs/editor/intellisense)
 - Flexible package API.
+- Less dependencies.
 
 <br/>
 <br/>
@@ -116,11 +116,9 @@ You can set programatic action. so the package can integrate into your system.
 
 ## C. API & Example Code
 
-See [API.md](API.md)
+See [API.md](API.md) and [EXAMPLE_CODE.md](EXAMPLE_CODE.md) that contain simple example code.
 
-See [EXAMPLE_CODE.md](EXAMPLE_CODE.md)
-
-Contain simple example code, the full example code and implementation example using source code from demo website. the source code of demo website is included when you buy this package.
+The full example code and implementation example using source code from demo website. the source code of demo website is included when you buy this package.
 
 <br/>
 
@@ -209,6 +207,8 @@ Just use the source code from demo website, you can literally just understand th
 <br/>
 
 The price is $140 USD. 
+
+React GPT Web Guide ($100) + [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (~~$70~~)($40) = $140
 
 I accept various payment method:
 
