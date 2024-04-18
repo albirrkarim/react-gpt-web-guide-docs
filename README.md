@@ -1,6 +1,6 @@
 # React GPT Web Guide
 
-![GPT Web Guide](./img/React-GPT-Web-Guide.png)
+![GPT Web Guide](./img/sosmed.png)
 
 **React GPT Web Guide** - Imagine you have an AI that can act as a guide on your website. It can be used as AI Web Accessibility, Web Metaverse NPC, Conversational AI, etc.
 
@@ -11,36 +11,32 @@ This is the Documentation for private repo [demo website](https://github.com/alb
 **Table Of Contents**
 
 - [A. Introduction](#a-introduction)
-- [B. Can be used as](#b-can-be-used-as)
-- [C. How It Works](#c-how-it-works)
-- [D. Todo](#d-todo)
-- [E. API](#e-api)
-- [F. Example Code](#f-example-code)
-- [G. Changelog](#g-changelog)
-- [H. Disclaimer](#h-disclaimer)
-- [I. Warranty](#i-warranty)
-- [J. Feedback](#j-warranty)
-- [K. FAQ](#k-faq)
+- [B. Todo](#b-todo)
+- [C. API & Example Code](#c-api--example-code)
+- [D. Changelog](#d-changelog)
+- [E. Disclaimer & Warranty](#e-disclaimer--warranty)
+- [F. FAQ](#f-faq)
+- [G. Payment](#g-payment)
+
+<br/>
 
 # Docs for v1.4.2
 
-# A. Introduction
+## A. Introduction
+
+### What i want?
 
 Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem and I also have an exhibition platform (Mozilla hubs based) that requires NPC that can act as a guide to my user.
 
 Both using react JS for the implementation (UI) and for handling the complex logic, and unstructured data we need strong understanding capabilities which open AI chat completion API has.
 
-Then I make this package in about 1 month.
-
 What position is this package in your production apps?
 
-Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc), but don't have foot because what the foot for haha.
-
-So when you buy this package you get a new AI employee. (like human employees)
+Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc).
 
 <br/>
 
-# B. Can be used as
+### Use Cases
 
 - Conversational AI
 - Web Metaverse NPC
@@ -48,19 +44,21 @@ So when you buy this package you get a new AI employee. (like human employees)
 
 <br/>
 
-# C. How It Works
+### How It Works
 
-### The Interaction
+![GPT Web Guide Overview](./img/React-GPT-Web-Guide.png)
+
+#### The Interaction
 
 Using [Browser SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) (text-to-speech) so the ai can speak and using [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition) for Speech Recognition (speech to text)
 
-### As Web Accessibility Tools
+#### As Web Accessibility Tools
 
 Can be used as interactable web accessibility.
 
 Screen Reader (all menus, buttons, form). Understand the user say and do the actions.
 
-### As Metaverse NPC
+#### As Metaverse NPC
 
 You can set programatic action. so the package can integrate into your system.
 
@@ -87,7 +85,7 @@ You can set programatic action. so the package can integrate into your system.
 
 <br/>
 
-# D. Todo
+## B. Todo
 
 - [ ] Let me know what you want from this package, please write it on issues tab
 - [ ] Make Youtube Video
@@ -101,21 +99,17 @@ You can set programatic action. so the package can integrate into your system.
 <br/>
 <br/>
 
-# E. API
+## C. API & Example Code
 
 See [API.md](API.md)
 
-<br/>
-
-# F. Example Code
+See [EXAMPLE_CODE.md](EXAMPLE_CODE.md)
 
 Contain simple example code, the full example code and implementation example using source code from demo website. the source code of demo website is included when you buy this package.
 
-See [EXAMPLE_CODE.md](EXAMPLE_CODE.md)
-
 <br/>
 
-# G. Changelog
+# D. Changelog
 
 Changelog contains information about new feature, fix bug, and what you should do when the version is update.
 
@@ -123,47 +117,24 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 <br/>
 
-# H. Disclaimer
+# E. Disclaimer & Warranty
 
-There's no refund
-
-<br>
-
-# I. Warranty
-
-I love feedback from my customers. You can write on the issue tab so when i have time i can try to solve that and deliver for the next update.
+There's no refund. I love feedback from my customers. You can write on the issue tab so when i have time i can try to solve that and deliver for the next update.
 
 <br/>
 
-# J. Feedback
-
-Tell me what you think
-
-Fill on the issue tab or Contact me:
-
-Discord Username : albirrkarim
-
 <br/>
 
-# K. FAQ
+# F. FAQ
 
 <details>
-  <summary>Why it's expensive?</summary>
+  <summary>Why it's expensive? Why it's not opensource package?</summary>
   
-<br/>
+  <br/>
 
 Try yourself to make this package. you will be grateful I am selling it cheap.
 
-</details>
-
-<br/>
-
-<details>
-  <summary>Why it's not opensource package?</summary>
-
-<br/>
-
-Well, i need money to funding the research, you know that making package is cost a lot of time and ofcourse money.
+Well, i need money to funding the research, you know that making package is cost a lot of time and of course money.
 
 </details>
 
@@ -201,10 +172,52 @@ I try to do efficiency for each prompt so the cost is minimum and keep accurate.
 </details>
 
 <br/>
+
+<details>
+  <summary>Is it well documented and well crafted?</summary>
+  
+  <br/>
+
+You can see the docs in this repo, and this package is written with typescript, and tested using jest to make sure the quality.
+
+You don't have to read all the docs in here, because this package now support [VS Code IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) what is that? simply its when you hover your mouse into some variable or function [VS Code](https://code.visualstudio.com/) will show some popup (simple tutorial) what is the function about, examples, params, etc...
+
+Just use the source code from demo website, you can literally just understand the package.
+
+https://github.com/albirrkarim/react-speech-highlight-demo/assets/29292018/05d325f9-469c-47e9-97d3-10053628e18c
+
+</details>
+
+<br/>
 <br/>
 
-# Support me
+## G. Payment
 
-<a href='https://ko-fi.com/Q5Q0BC92X' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<br/>
 
-<a href="https://trakteer.id/albirrkarim" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-2.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
+The price is $140 USD. 
+
+I accept various payment method:
+
+<a href="https://github.com/sponsors/albirrkarim" title="Github Sponsors">
+    <img src="https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91" width="350em">
+</a>
+
+<br/>
+<br/>
+
+When you country doesn't have acccess to github sponsors, you can use [wise.com](https://wise.com/invite/dic/albirrkarims). You can adjust the price (USD $140) into your currency then directly send with your currency using [wise](https://wise.com/invite/dic/albirrkarims).
+
+<a href="https://wise.com/pay/me/albirrkarims" title="Wise Payment">
+    <img src="https://github.com/albirrkarim/albirrkarim/assets/29292018/7a5fba67-9ec0-4401-b65b-780306128e87" title="@albirrkarims-wisetag" width="200em">
+</a>
+
+<br/>
+<br/>
+
+If you are in indonesia (my country) you can easily transfer through bank and e wallet (gopay, shopee pay, jenius)
+
+<img src="./img/payment.png" width="350em">
+
+<br/>
+<br/>
