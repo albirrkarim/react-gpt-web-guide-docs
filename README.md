@@ -6,10 +6,6 @@
 
 Ask something? discord: albirrkarim
 
-<a href="https://discordapp.com/channels/@me/884043164908929034" title="Message me with discord">
-    <img src="./img/discord.png" width="200em">
-</a>
-
 <br/>
 
 ## Features:
@@ -45,9 +41,11 @@ This is the Documentation for private repo [demo website](https://github.com/Web
 
 ### What i want?
 
-Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem and I also have an exhibition platform (Mozilla hubs based) that requires NPC that can act as a guide to my user.
+Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem. 
 
-Both using react JS for the implementation (UI) and for handling the complex logic, and unstructured data we need strong understanding capabilities which open AI chat completion API has.
+### Solution ?
+
+Making some frontend-package (npm package) that can doing various thing.
 
 What position is this package in your production apps?
 
@@ -61,7 +59,7 @@ Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text
 
 ### How It Works
 
-![GPT Web Guide Overview](./img/React-GPT-Web-Guide.png)
+![GPT Web Guide Overview](./img/overview.png)
 
 #### The Interaction
 
@@ -181,6 +179,20 @@ For now i use [react speech recognition](https://github.com/JamesBrill/react-spe
 <br/>
 
 I try to do efficiency for each prompt so the cost is minimum and keep accurate.
+
+</details>
+
+
+<br/>
+
+<details>
+  <summary>How can I provide information for my chatbot?</summary>
+
+<br/>
+
+This package have something like initial knowledge. its some JSON that tell about:
+
+`What is your website about?` -> so when the User ask the AI they can answer correctly.
 
 </details>
 
