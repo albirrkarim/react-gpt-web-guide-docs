@@ -215,7 +215,7 @@ Just use the source code from demo website, you can literally just understand th
 
 <br/>
 
-The price is $140 USD. 
+The price is only $140 USD. 
 
 React GPT Web Guide ($100) + [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (~~$94~~)($40) = $140
 
@@ -224,6 +224,7 @@ React GPT Web Guide ($100) + [React Speech Highlight](https://github.com/albirrk
 After you pay you will be invited inside my private repo and stay inside for 1 year to receive any updates.
 
 - [The demo website (Next js based)](https://github.com/Web-XR-AI-lab/demo-website-gpt-web-guide)
+- All the private repo web version of [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo?tab=readme-ov-file#the-web-version-react-and-vanilla-js)
 
 <br/>
 
