@@ -11,6 +11,7 @@ import {
   // Main
   readThisScreen,
   useGPTWebGuide,
+  GPTWebGuideProvider,
 
   // Utils
   speak,
@@ -18,7 +19,7 @@ import {
   startRecog,
   stopRecog,
   translateTo,
-  playAudio,
+  openaiChatCompletionsSimple,
 
   // Sharing state & constant
   isScreenReaderActive,
@@ -33,7 +34,6 @@ import {
   isUsingMozilla,
   isUsingSafari,
   isUsingiPad,
-  openaiChatCompletionsSimple,
 } from "react-gpt-web-guide";
 ```
 
@@ -64,6 +64,54 @@ useEffect(() => {
   });
 }, []);
 ```
+<br/>
+
+### GPTWebGuideProvider
+
+To provide the context of the GPT Web Guide. so the react state from the hook `useGPTWebGuide` can be shared accross the app components.
+
+<details>
+  <summary>Show Code example</summary>
+
+  ```jsx
+  import { useSnackbar } from "notistack";
+  import { getActionData } from "@/app/Demo/Widget/helper/utils";
+  import { DEMO_KNOWLEDGE } from "@/app/Demo/data/initialKnowledge";
+  import { CONFIG_OPT, type ConfigGPTWebGuide, GPTWebGuideProvider } from "@lib/react-gpt-web-guide";
+  import micOffSoundEffect from "@/app/assets/sound/mic-off.mp3";
+  import micOnSoundEffect from "@/app/assets/sound/mic-on.mp3";
+
+  /**
+   * This is for GPT Web Guide
+   * 
+   * Don't forget to wrapp your app with the AssistantWrapper component
+   * So the state of the useGPTWebGuide will be available accross the app
+   */
+  const AssistantWrapper = ({ children }: { children: JSX.Element }): JSX.Element => {
+    const { enqueueSnackbar } = useSnackbar();
+    const actionsData = getActionData(enqueueSnackbar);
+
+    const initialConfig: Partial<ConfigGPTWebGuide> = {
+      [CONFIG_OPT.siteLang]: "en-US",
+      [CONFIG_OPT.micOffSoundEffect]: micOffSoundEffect,
+      [CONFIG_OPT.micOnSoundEffect]: micOnSoundEffect,
+    }
+
+    return (
+      <GPTWebGuideProvider
+        initialKnowledge={DEMO_KNOWLEDGE}
+        initialActionsData={actionsData}
+        config={initialConfig}
+      >
+        {children}
+      </GPTWebGuideProvider>
+    );
+  };
+
+  export default AssistantWrapper;
+  ```
+</details>
+
 
 ### useGPTWebGuide()
 
@@ -74,15 +122,7 @@ The `useGPTWebGuide` is the main hook.
 ```js
 import { CONFIG_OPT, useGPTWebGuide } from "@lib/react-gpt-web-guide";
 
-const { stateRecog, stateGuide, action, prepare, askGPT } = useGPTWebGuide({
-  initialKnowledge: DEMO_KNOWLEDGE,
-  initialActionsData: INITIAL_ACTION_DATA,
-  config: {
-    [CONFIG_OPT.siteLang]: "en-US",
-    micOnSoundEffect: "/mic_on.mp3",
-    micOffSoundEffect: "/mic_off.mp3",
-  },
-});
+const { stateRecog, stateGuide, action, prepare, askGPT } = useGPTWebGuide();
 ```
 
 #### Initial Knowledge
