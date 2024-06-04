@@ -101,13 +101,10 @@ You can set programatic action. so the package can integrate into your system.
 ## B. Todo
 
 - [ ] Let me know what you want from this package, please write it on issues tab
-- [ ] Make Youtube Video
-- [ ] Make API Metaverse NPC (0%)
-- [ ] Example Code for Metaverse NPC (0%)
-- [ ] Example Code for AI Web Accessibility (0%)
-- [ ] Give source code comments (10%)
-- [ ] API docs (0%)
-- [ ] Automate the testing (Prompt Test, Unit Test)(2%)
+- [ ] Make Youtube Video Tutorial
+- [x] Typescript, Eslint
+- [x] API docs, JS Doc
+- [x] Automate the testing (Prompt Test, Unit Test)(2%)
 
 <br/>
 <br/>
