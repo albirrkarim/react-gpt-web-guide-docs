@@ -245,9 +245,7 @@ const translated_text = await translateTo("hello", "id-ID", defaultLanguge);
 console.log(translated_text); // halo
 ```
 
-### playAudio()
-
-coming soon
+### openaiChatCompletionsSimple()
 
 <br/>
 
@@ -255,49 +253,14 @@ coming soon
 
 Sharing package state and constant.
 
-### isScreenReaderActive()
-
-### isVoiceCommandActive()
-
-### CONFIG_OPT
-
-```js
-// config option
-const CONFIG_OPT = {
-  siteLang: "siteLang",
-  micOnSoundEffect: "micOnSoundEffect",
-  micOffSoundEffect: "micOffSoundEffect",
-  keyBoardSoundEffect: "keyBoardSoundEffect",
-};
-```
-
-### AI_STATUS_OPT
-
-```js
-// GTP Web Guide Status
-const AI_STATUS_OPT = {
-  OFF: "off",
-  IDLE: "idle",
-  LISTENING: "listening",
-  LISTENING_USER_COMMAND: "listening_user_command",
-  SPEAKING: "speaking",
-  THINKING: "thinking",
-  TRANSLATE: "translate",
-  SHUTDOWN: "shutdown",
-};
-```
-
-### ACTION_TYPE
-
-```js
-// For action data
-const ACTION_TYPE = {
-  SUBMIT_FORM: "submit form",
-  FILL_FORM: "fill form",
-  CLICK_BUTTON: "click button",
-  INPUT_TEXT: "input text",
-  SEARCH: "search",
-};
+```jsx
+import {
+  isScreenReaderActive,
+  isVoiceCommandActive,
+  CONFIG_OPT,
+  AI_STATUS_OPT,
+  ACTION_TYPE,
+} from "@lib/react-gpt-web-guide";
 ```
 
 <br/>
@@ -306,14 +269,14 @@ const ACTION_TYPE = {
 
 Contain Compatibility tools
 
-### isChrome()
+```jsx
+import {
+  isChrome,
+  isUsingAndroid,
+  isUsingMozilla,
+  isUsingSafari,
+  isUsingiPad,
+} from "@lib/react-gpt-web-guide";
+```
 
-### isUsingAndroid()
-
-### isUsingMozilla()
-
-### isUsingSafari()
-
-### isUsingiPad()
-
-### openaiChatCompletionsSimple()
+Again, this package is using jsdoc so you can see each docs in your code editor with just hover your mouse into some variable. [see video above](#api)
