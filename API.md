@@ -2,6 +2,10 @@
 
 The api is a function that you can use to integrate this package into your apps. When read this api docs you can toggle `Outline` (see top right) menu in github so you can navigate easily.
 
+This package is written with typescript, You don't have to read all the docs in here, because this package now support [VS Code IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) what is that? simply its when you hover your mouse into some variable or function [VS Code](https://code.visualstudio.com) will show some popup (simple tutorial) what is the function about, examples, params, etc...
+
+https://github.com/albirrkarim/react-speech-highlight-demo/assets/29292018/05d325f9-469c-47e9-97d3-10053628e18c
+
 ```js
 import {
   // Main
@@ -68,11 +72,11 @@ The `useGPTWebGuide` is the main hook.
 #### Hook
 
 ```js
-import { CONFIG_OPT, useGPTWebGuide } from "../gpt-web-guide";
+import { CONFIG_OPT, useGPTWebGuide } from "@lib/react-gpt-web-guide";
 
 const { stateRecog, stateGuide, action, prepare, askGPT } = useGPTWebGuide({
-  initial_knowledge: DEMO_KNOWLEDGE,
-  initial_actions_data: INITIAL_ACTION_DATA,
+  initialKnowledge: DEMO_KNOWLEDGE,
+  initialActionsData: INITIAL_ACTION_DATA,
   config: {
     [CONFIG_OPT.siteLang]: "en-US",
     micOnSoundEffect: "/mic_on.mp3",
@@ -212,7 +216,7 @@ Function to set ai status. see [AI_STATUS_OPT](API.md#ai_status_opt)
 
 ```js
 // Import the constant from package so the value can be constant (avoid typo)
-import { AI_STATUS_OPT } from "gpt-web-guide";
+import { AI_STATUS_OPT } from "@lib/react-gpt-web-guide";
 
 // Use like this
 setGPTWebGuideStatus(AI_STATUS_OPT.TRANSLATE);

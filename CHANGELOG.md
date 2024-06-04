@@ -1,23 +1,15 @@
 # CHANGELOG
 
-# 1.4.2
-- Fix bug
+# 1.4.3
+- Refactor
+- Add 3D avatar from readyplayer.me as AI interface to user
+- Add Typescript, Eslint, Jest
+- Integration with React Speech Highlight that enable viseme generation on client side
+- Redesign library API
+- Add simple example code
+- Add API docs
 
-# 1.4.1
-- Fix bug
-
-# 1.4
-- Fix bug
-- Implementation on real production project
-
-# 1.3
-- Fix bug
-
-# 1.2
-- Fix bug
-
-# 1.1
-- Fix bug
-
-# 1.0
+# 1.0.0 - 1.4.2
 - First commit
+- Fix bug
+- Add basic feature

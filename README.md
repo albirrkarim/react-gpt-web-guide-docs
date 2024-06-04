@@ -20,7 +20,7 @@ Ask something? discord: albirrkarim
 <br/>
 <br/>
 
-# Docs React GPT Web Guide v1.4.2
+# Docs React GPT Web Guide v1.4.3
 
 This is the Documentation for private repo [demo website](https://github.com/Web-XR-AI-lab/demo-website-gpt-web-guide)
 
