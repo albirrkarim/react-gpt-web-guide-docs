@@ -73,9 +73,25 @@ Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text
 
 ![GPT Web Guide Overview](./img/overview.png)
 
-#### The Interaction
+#### The Interaction with user (Mouth and Ears)
 
 Using [React / Vanilla Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (text-to-speech with highlight) so the ai can speak and using [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition) for Speech Recognition (speech to text)
+
+#### The Brain
+
+I designing some engines that combine the LLM capabilities and efficient algorithm to save the cost. Featuring understanding user command with some initial knowledge (like what is your website about, etc).
+
+#### The Hands
+
+The hands is the function that can do some action programmatically. like search, click, etc.
+
+#### The Eyes
+
+The eyes is js function that can extract all section of your webpage that maybe inside it contain button, form, etc. then using LLM (Open AI API) make some literal text and after that the `Mouth` will speak it. (Human like informer)
+
+#### The 3D Avatar
+
+Using [React Three Drei](https://github.com/pmndrs/drei) and the [readyplayer.me](https://readyplayer.me/id) and mixamo for the avatar animation. Like in the wawa sensei project [virtual girlfriend](https://www.youtube.com/watch?v=EzzcEL_1o9o)
 
 <br/>
 
