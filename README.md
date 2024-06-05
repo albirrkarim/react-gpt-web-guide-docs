@@ -24,7 +24,6 @@ Ask something? discord: albirrkarim
 
 This is the Documentation for private repo [demo website](https://github.com/Web-XR-AI-lab/demo-website-gpt-web-guide)
 
-
 **Table Of Contents**
 
 - [A. Introduction](#a-introduction)
@@ -41,9 +40,28 @@ This is the Documentation for private repo [demo website](https://github.com/Web
 
 ### What i want?
 
-Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem. 
+Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem. So the tools must be able to read the page, understand the user's voice, and do some action programmatically.
 
-### Solution ?
+Not just benfiting for the user with disability, but also for the normal user.
+
+I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website.
+
+### Here what i got from the search on the internet:
+
+**Accesibility tools**
+
+There are many tools, mostly is subscription-based, and the price is expensive. I want to make it more affordable and more flexible. The practical solution one. Mostly just 2D interface, and doesn't have integrated with 3D Avatar. which enhance the user experience and make it more fun.
+
+**Conversational AI 3D Avatar**
+
+I found the [Talking Head](https://github.com/met4citizen/TalkingHead) project. its a js library that can make 3D avatar and do conversation with user with also lip sync and have animation. But they don't have the ability to control the website.
+
+**3D AI avatar using React js**
+
+Since my project using react js so it would be easier to me to use react js. I found project from [wawa sensei](https://github.com/wass08) about [Virtual Girlfriend](https://github.com/wass08/r3f-virtual-girlfriend-frontend) but again they don't have the ability to control the website and text highlight when the AI talk.
+
+
+### Solutions
 
 Making some frontend-package (npm package) that can doing various thing.
 
@@ -51,21 +69,23 @@ What position is this package in your production apps?
 
 Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc).
 
-### Use Cases
-
-- Conversational AI
-- Web Metaverse NPC
-- AI Web Accessibility
-
 ### How It Works
 
 ![GPT Web Guide Overview](./img/overview.png)
 
 #### The Interaction
 
-Using [Browser SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) (text-to-speech) so the ai can speak and using [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition) for Speech Recognition (speech to text)
+Using [React / Vanilla Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (text-to-speech with highlight) so the ai can speak and using [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition) for Speech Recognition (speech to text)
 
-#### As Web Accessibility Tools
+<br/>
+
+### Use Cases
+
+#### Conversational AI
+
+Imagine the user can ask the AI about anything on your website. The AI can answer the user question, doing some action, etc.
+
+#### As AI Web Accessibility Tools
 
 Can be used as interactable web accessibility.
 
@@ -104,14 +124,14 @@ You can set programatic action. so the package can integrate into your system.
 - [ ] Make Youtube Video Tutorial
 - [x] Typescript, Eslint
 - [x] API docs, JS Doc
-- [x] Automate the testing (Prompt Test, Unit Test)(2%)
+- [x] Automate the testing (Prompt Test, Unit Test)
 
 <br/>
 <br/>
 
 ## C. API & Example Code
 
-See [API.md](API.md) and [EXAMPLE_CODE.md](EXAMPLE_CODE.md) that contain simple example code.
+See [API.md](API.md)
 
 The full example code and implementation example using source code from demo website. the source code of demo website is included when you buy this package.
 
@@ -179,7 +199,6 @@ I try to do efficiency for each prompt so the cost is minimum and keep accurate.
 
 </details>
 
-
 <br/>
 
 <details>
@@ -215,7 +234,7 @@ Just use the source code from demo website, you can literally just understand th
 
 <br/>
 
-The price is only $140 USD. 
+The price is only $140 USD.
 
 React GPT Web Guide ($100) + [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (~~$94~~)($40) = $140
 
@@ -254,3 +273,17 @@ If you are in indonesia (my country) you can easily transfer through bank and e 
 
 <br/>
 <br/>
+
+# Keywords
+
+So this package is the answer for you who looking for:
+
+- Web Accessibility Tools
+- web guide ai
+- AI Web Accessibility
+- react accessibility library
+- Conversational AI for Websites
+- 3d avatar that have control over website
+- can ai controll over web
+- Using AI to Enhance Web Accessibility
+- Web Metaverse NPC
