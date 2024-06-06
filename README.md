@@ -274,15 +274,6 @@ I accept various payment method:
 <br/>
 <br/>
 
-When you country doesn't have acccess to github sponsors, you can use [wise.com](https://wise.com/invite/dic/albirrkarims). You can adjust the price (USD $140) into your currency then directly send with your currency using [wise](https://wise.com/invite/dic/albirrkarims).
-
-<a href="https://wise.com/pay/me/albirrkarims" title="Wise Payment">
-    <img src="https://github.com/albirrkarim/albirrkarim/assets/29292018/7a5fba67-9ec0-4401-b65b-780306128e87" title="@albirrkarims-wisetag" width="200em">
-</a>
-
-<br/>
-<br/>
-
 If you are in indonesia (my country) you can easily transfer through bank and e wallet (gopay, shopee pay, jenius)
 
 <img src="./img/payment.png" width="350em">
