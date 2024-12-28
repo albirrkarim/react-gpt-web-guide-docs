@@ -252,7 +252,7 @@ Built in speak function
 
 ### setGPTWebGuideStatus()
 
-Function to set ai status. see [AI_STATUS_OPT](API.md#ai_status_opt)
+Function to set ai status
 
 ```js
 // Import the constant from package so the value can be constant (avoid typo)
