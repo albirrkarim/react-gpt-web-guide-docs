@@ -1,6 +1,6 @@
 ![GPT Web Guide](./img/sosmed.png)
 
-**React GPT Web Guide** - Interactable AI that have controll over your frontend website, It guides your user walk around your website its a salesman / supports.
+**React GPT Web Guide** - Interactable AI that have control over your frontend website, It guides your user walk around your website its a salesman / supports.
 
 [Try the demo React GPT Web Guide](https://react-gpt-web-guide.vercel.app)
 
@@ -62,23 +62,42 @@ Imagine you visit a cars showroom then the sales comes to you, you can ask them 
 
 Or maybe bring you to look around, in website context the AI know the link path where user can follow
 
-**Displaying**
+**Display To User**
 
-I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website.
+I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website or the butterfly that they will fly over your website and guides the user at user should click.
 
 ### A.2 Here what i got from the search on the internet:
 
-**Accesibility tools**
+<details>
+  <summary>Accesibility tools</summary>
+  
+  <br/>
 
-There are many tools, mostly is subscription-based, and the price is expensive. I want to make it more affordable and more flexible. The practical solution one. Mostly just 2D interface, and doesn't have integrated with 3D Avatar. which enhance the user experience and make it more fun.
+  There are many tools, mostly is subscription-based, and the price is expensive. I want to make it more affordable and more flexible. The practical solution one. Mostly just 2D interface, and doesn't have integrated with 3D Avatar. which enhance the user experience and make it more fun.
 
-**Conversational AI 3D Avatar**
+</details>
 
-I found the [Talking Head](https://github.com/met4citizen/TalkingHead) project. its a js library that can make 3D avatar and do conversation with user with also lip sync and have animation. But they don't have the ability to control the website.
+<br/>
 
-**3D AI avatar using React js**
+<details>
+  <summary>Conversational AI 3D Avatar</summary>
+  
+  <br/>
 
-Since my project using react js so it would be easier to me to use react js. I found project from [wawa sensei](https://github.com/wass08) about [Virtual Girlfriend](https://github.com/wass08/r3f-virtual-girlfriend-frontend) but again they don't have the ability to control the website and text highlight when the AI talk.
+  I found the [Talking Head](https://github.com/met4citizen/TalkingHead) project. its a js library that can make 3D avatar and do conversation with user with also lip sync and have animation. But they don't have the ability to control the website.
+
+</details>
+
+<br/>
+
+<details>
+  <summary>3D AI avatar using React js</summary>
+
+  <br/>
+
+  Since my project using react js so it would be easier to me to use react js. I found project from [wawa sensei](https://github.com/wass08) about [Virtual Girlfriend](https://github.com/wass08/r3f-virtual-girlfriend-frontend) but again they don't have the ability to control the website and text highlight when the AI talk.
+
+</details>
 
 ### A.3 Solutions
 
@@ -296,6 +315,6 @@ So this package is the answer for you who looking for:
 - react accessibility library
 - Conversational AI for Websites
 - 3d avatar that have control over website
-- can ai controll over web
+- can ai control over web
 - Using AI to Enhance Web Accessibility
 - Web Metaverse NPC
