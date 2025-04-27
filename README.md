@@ -41,24 +41,29 @@ This is the Documentation for private repo [demo website](https://github.com/Web
 ### What i want?
 
 **Disability**
+
 Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem. So the tools must be able to read the page, understand the user's voice, and do some action programmatically.
 
 Not just benfiting for the user with disability, but also for the normal user.
 
 **Developer**
+
 I hate to read long sofware documentation. i see screen every day my eyes was tired, so i hate read long text.
 I want to make some AI for supporting user. like giving user code example. based on their knowledge.
 I want make that ai is available in web front end. they can read current page, then do summarize, providing example code, or maybe ask something else that current page. Also the ai can click or interact on the page like human do.
 
 **Guider**
+
 I have website that have a lot of information, menus, page (Management System), how i can teach user to click this then click that for arriving to some destination feature or page that user looking for.
 
 **Analogy**
+
 Imagine you visit a cars showroom then the sales comes to you, you can ask them any thing, they also following your movement to look around. and they always ready to being asked for what you see.
 
 Or maybe bring you to look around, in website context the AI know the link path where user can follow
 
 **Displaying**
+
 I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website.
 
 ### Here what i got from the search on the internet:
