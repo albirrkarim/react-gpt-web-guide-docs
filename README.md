@@ -1,6 +1,6 @@
 ![GPT Web Guide](./img/sosmed.png)
 
-**React GPT Web Guide** - Interactable AI 3D Avatar that have controll over your frontend website
+**React GPT Web Guide** - Interactable AI that have controll over your frontend website, It guides your user walk around your website its a salesman / supports.
 
 [Try the demo React GPT Web Guide](https://react-gpt-web-guide.vercel.app)
 
@@ -40,10 +40,25 @@ This is the Documentation for private repo [demo website](https://github.com/Web
 
 ### What i want?
 
+**Disability**
 Recently, I worked on AI accessibility tools The idea is it's like conversational AI that can guide the user with a disability maybe a motoric, or visual problem. So the tools must be able to read the page, understand the user's voice, and do some action programmatically.
 
 Not just benfiting for the user with disability, but also for the normal user.
 
+**Developer**
+I hate to read long sofware documentation. i see screen every day my eyes was tired, so i hate read long text.
+I want to make some AI for supporting user. like giving user code example. based on their knowledge.
+I want make that ai is available in web front end. they can read current page, then do summarize, providing example code, or maybe ask something else that current page. Also the ai can click or interact on the page like human do.
+
+**Guider**
+I have website that have a lot of information, menus, page (Management System), how i can teach user to click this then click that for arriving to some destination feature or page that user looking for.
+
+**Analogy**
+Imagine you visit a cars showroom then the sales comes to you, you can ask them any thing, they also following your movement to look around. and they always ready to being asked for what you see.
+
+Or maybe bring you to look around, in website context the AI know the link path where user can follow
+
+**Displaying**
 I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website.
 
 ### Here what i got from the search on the internet:
@@ -59,7 +74,6 @@ I found the [Talking Head](https://github.com/met4citizen/TalkingHead) project. 
 **3D AI avatar using React js**
 
 Since my project using react js so it would be easier to me to use react js. I found project from [wawa sensei](https://github.com/wass08) about [Virtual Girlfriend](https://github.com/wass08/r3f-virtual-girlfriend-frontend) but again they don't have the ability to control the website and text highlight when the AI talk.
-
 
 ### Solutions
 
@@ -270,13 +284,6 @@ I accept various payment method:
 <a href="https://github.com/sponsors/albirrkarim" title="Github Sponsors">
     <img src="https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91" width="350em">
 </a>
-
-<br/>
-<br/>
-
-If you are in indonesia (my country) you can easily transfer through bank and e wallet (gopay, shopee pay, jenius)
-
-<img src="./img/payment.png" width="350em">
 
 <br/>
 <br/>
