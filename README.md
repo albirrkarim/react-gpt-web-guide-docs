@@ -38,7 +38,7 @@ This is the Documentation for private repo [demo website](https://github.com/Web
 
 ## A. Introduction
 
-### What i want?
+### A.1 What i want?
 
 **Disability**
 
@@ -66,7 +66,7 @@ Or maybe bring you to look around, in website context the AI know the link path 
 
 I want it to be more interactive, more fun, and more engaging. I want to make it like a 3D avatar that can control the website.
 
-### Here what i got from the search on the internet:
+### A.2 Here what i got from the search on the internet:
 
 **Accesibility tools**
 
@@ -80,7 +80,7 @@ I found the [Talking Head](https://github.com/met4citizen/TalkingHead) project. 
 
 Since my project using react js so it would be easier to me to use react js. I found project from [wawa sensei](https://github.com/wass08) about [Virtual Girlfriend](https://github.com/wass08/r3f-virtual-girlfriend-frontend) but again they don't have the ability to control the website and text highlight when the AI talk.
 
-### Solutions
+### A.3 Solutions
 
 Making some frontend-package (npm package) that can doing various thing.
 
@@ -88,7 +88,7 @@ What position is this package in your production apps?
 
 Imagine the human body, They have a mouth (text-to-speech), ears (speech-to-text), a brain (chat GPT API), hands (programmatically calling function to do some action), eyes (the function that searches the web section, button, form, etc).
 
-### How It Works
+### A.4 How It Works
 
 ![GPT Web Guide Overview](./img/overview.png)
 
@@ -114,7 +114,7 @@ Using [React Three Drei](https://github.com/pmndrs/drei) and the [readyplayer.me
 
 <br/>
 
-### Use Cases
+### A.5 Use Cases
 
 #### Conversational AI
 
@@ -195,9 +195,7 @@ There's no refund. I love feedback from my customers. You can write on the issue
   
   <br/>
 
-Try yourself to make this package. you will be grateful I am selling it cheap.
-
-Well, i need money to funding the research, you know that making package is cost a lot of time and of course money.
+Well, i need money to funding the research.
 
 </details>
 
@@ -269,16 +267,11 @@ Just use the source code from demo website, you can literally just understand th
 
 <br/>
 
-The price is only $140 USD.
+Contact me before purchase
 
-React GPT Web Guide ($100) + [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo) (~~$94~~)($40) = $140
+Email: albirkarim1@gmail.com
 
-**What you got**
-
-After you pay you will be invited inside my private repo and stay inside for 1 year to receive any updates.
-
-- [The demo website (Next js based)](https://github.com/Web-XR-AI-lab/demo-website-gpt-web-guide)
-- All the private repo web version of [React Speech Highlight](https://github.com/albirrkarim/react-speech-highlight-demo?tab=readme-ov-file#the-web-version-react-and-vanilla-js)
+Discord username: albirrkarim
 
 <br/>
 
